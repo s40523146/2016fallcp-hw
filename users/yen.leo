@@ -166,6 +166,7 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161115230418.1"><vh>@edit 20161115.md</vh></v>
+<v t="leo.20161118152432.1"><vh>@auto 20161118.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
 </v>
 </v>
@@ -488,6 +489,24 @@
 <v t="leo.20161115230332.233"><vh>new:iframe 導入影片</vh></v>
 </v>
 </v>
+<v t="leo.20161118133515.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161118133515.3"><vh>Recovered node "封面投影片" from @clean index.html</vh>
+<v t="leo.20161118133515.4"><vh>old:封面投影片</vh></v>
+<v t="leo.20161118133515.5"><vh>new:封面投影片</vh></v>
+</v>
+<v t="leo.20161118133515.6"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161118133515.7"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161118133515.8"><vh>new:封面投影片內容</vh></v>
+</v>
+<v t="leo.20161118133515.9"><vh>Recovered node "創造力" from @clean index.html</vh>
+<v t="leo.20161118133515.10"><vh>old:創造力</vh></v>
+<v t="leo.20161118133515.11"><vh>new:創造力</vh></v>
+</v>
+<v t="leo.20161118133515.12"><vh>Recovered node "何謂創造力?" from @clean index.html</vh>
+<v t="leo.20161118133515.13"><vh>old:何謂創造力?</vh></v>
+<v t="leo.20161118133515.14"><vh>new:何謂創造力?</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -604,7 +623,7 @@ print("hello")
     &lt;h1&gt;s40523146  謝秉軒  Welcome&lt;/h1&gt;
     &lt;p&gt;
     &lt;small&gt;
-    Created by &lt;a href="http://chiamingyen.github.io/kmolab/blog/tag/2016fallcp.html"&gt;s40523142&lt;/a&gt;
+    Created by &lt;a href="https://github.com/s40523146"&gt;s40523146&lt;/a&gt;
     &lt;/small&gt;
 </t>
 <t tx="amd.20161004095719.2"># s40523146謝秉軒計算機課程
@@ -612,8 +631,8 @@ print("hello")
 ### THE HTML PRESENTATION FRAMEWORK
 
 &lt;small&gt;
-Created by [Hakim El Hattab](http://hakim.se)
-[@hakimel](http://twitter.com/hakimel)
+Created by s40523146
+[s40523146](https://github.com/s40523146)
 &lt;/small&gt;
 
 [blog](blog/index.html)
@@ -650,9 +669,8 @@ Created by [Hakim El Hattab](http://hakim.se)
 @others
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-## 使用 iframe 導入影片
+## GIT CLONE
 
-### Markdown 沒有 iframe
 </t>
 <t tx="amd.20161004105131.2">
     &lt;/script&gt;
@@ -3005,6 +3023,173 @@ Diff...
 + ### 單機連結到遠端主機中 (遠端)
 + ### 瀏覽器中 (網際端)
 </t>
+<t tx="leo.20161118133515.10">### 4. 執行協同專案 (CD4, Project)
+
+@others
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+## 使用 iframe 導入影片
+
+### Markdown 沒有 iframe
+</t>
+<t tx="leo.20161118133515.11">### 4. 執行協同專案 (CD4, Project)
+
+@others
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+## GIT CLONE
+
+</t>
+<t tx="leo.20161118133515.12">(uncached) yen.20161011114704.2
+Diff...
+      &lt;/script&gt;
+  &lt;/section&gt;
+  
+- 	
+- 	
+  
+- &lt;section data-markdown&gt;
+-     &lt;script type="text/template"&gt;
+- ## GIT BRANCH &amp; GIT CHECK OUT
+- 
+- &lt;iframe src="https://player.vimeo.com/video/191647519" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+-     &lt;/script&gt;
+- &lt;/section&gt;
+- 	
+- 	
+- 	
+- 	
+  						
+  &lt;section data-markdown&gt;
+      &lt;script type="text/template"&gt;
+</t>
+<t tx="leo.20161118133515.13">    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+</t>
+<t tx="leo.20161118133515.14">    &lt;/script&gt;
+&lt;/section&gt;
+
+	
+	
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+## GIT BRANCH &amp; GIT CHECK OUT
+
+&lt;iframe src="https://player.vimeo.com/video/191647519" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+	
+	
+	
+	
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+</t>
+<t tx="leo.20161118133515.2"></t>
+<t tx="leo.20161118133515.3">(uncached) amd.20161004095719.1
+Diff...
+  &lt;section data-markdown&gt;
+      &lt;script type="text/template"&gt;
+  @others
+      &lt;h1&gt;s40523146  謝秉軒  Welcome&lt;/h1&gt;
+      &lt;p&gt;
+      &lt;small&gt;
+-     Created by &lt;a href="https://github.com/s40523146"&gt;s40523146&lt;/a&gt;
++     Created by &lt;a href="http://chiamingyen.github.io/kmolab/blog/tag/2016fallcp.html"&gt;s40523142&lt;/a&gt;
+      &lt;/small&gt;
+</t>
+<t tx="leo.20161118133515.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;h1&gt;s40523146  謝秉軒  Welcome&lt;/h1&gt;
+    &lt;p&gt;
+    &lt;small&gt;
+    Created by &lt;a href="http://chiamingyen.github.io/kmolab/blog/tag/2016fallcp.html"&gt;s40523142&lt;/a&gt;
+    &lt;/small&gt;
+</t>
+<t tx="leo.20161118133515.5">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;h1&gt;s40523146  謝秉軒  Welcome&lt;/h1&gt;
+    &lt;p&gt;
+    &lt;small&gt;
+    Created by &lt;a href="https://github.com/s40523146"&gt;s40523146&lt;/a&gt;
+    &lt;/small&gt;
+</t>
+<t tx="leo.20161118133515.6">(uncached) amd.20161004095719.2
+Diff...
+  # s40523146謝秉軒計算機課程
+  
+  ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+- Created by s40523146
+- [s40523146](https://github.com/s40523146)
++ Created by [Hakim El Hattab](http://hakim.se)
++ [@hakimel](http://twitter.com/hakimel)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+      &lt;/script&gt;
+  &lt;/section&gt;
+  
+  
+  						
+  &lt;section&gt;
+</t>
+<t tx="leo.20161118133515.7"># s40523146謝秉軒計算機課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section&gt;
+</t>
+<t tx="leo.20161118133515.8"># s40523146謝秉軒計算機課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by s40523146
+[s40523146](https://github.com/s40523146)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section&gt;
+</t>
+<t tx="leo.20161118133515.9">(uncached) amd.20161004105131.1
+Diff...
+  ### 4. 執行協同專案 (CD4, Project)
+  
+  @others
+  &lt;section data-markdown&gt;
+      &lt;script type="text/template"&gt;
+- ## GIT CLONE
++ ## 使用 iframe 導入影片
+  
++ ### Markdown 沒有 iframe
+</t>
 <t tx="yen.20161011114704.1">
 &lt;iframe src="https://player.vimeo.com/video/191647518" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 @others
@@ -3017,7 +3202,20 @@ Diff...
 <t tx="yen.20161011114704.2">    &lt;/script&gt;
 &lt;/section&gt;
 
+	
+	
 
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+## GIT BRANCH &amp; GIT CHECK OUT
+
+&lt;iframe src="https://player.vimeo.com/video/191647519" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+	
+	
+	
+	
 						
 &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
