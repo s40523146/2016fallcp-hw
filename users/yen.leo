@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151212173315.1"><vh>@settings</vh>
+<v t="leo.20151212173315.1" a="E"><vh>@settings</vh>
 <v t="leo.20151212173315.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -166,8 +166,11 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161115230418.1"><vh>@edit 20161115.md</vh></v>
-<v t="leo.20161118152432.1"><vh>@auto 20161118.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
+<v t="leo.20161118214152.1"><vh>@edit 20161118.md</vh></v>
+<v t="leo.20161202150556.1"><vh>@edit 20161202.md</vh></v>
+<v t="leo.20161209141123.1"><vh>@edit 20161209.md</vh></v>
+<v t="leo.20161216135956.1"><vh>@edit 20161216.md</vh></v>
 </v>
 </v>
 </v>
@@ -176,6 +179,9 @@
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
+<v t="leo.20161216135924.1"><vh>newHeadline</vh></v>
+<v t="leo.20161216135909.1"><vh>newHeadline</vh></v>
+<v t="leo.20161216135849.1"><vh>newHeadline</vh></v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
@@ -3190,6 +3196,9 @@ Diff...
   
 + ### Markdown 沒有 iframe
 </t>
+<t tx="leo.20161216135849.1"></t>
+<t tx="leo.20161216135909.1"></t>
+<t tx="leo.20161216135924.1"></t>
 <t tx="yen.20161011114704.1">
 &lt;iframe src="https://player.vimeo.com/video/191647518" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 @others
