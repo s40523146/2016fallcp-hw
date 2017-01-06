@@ -14,7 +14,7 @@
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
-<v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
+<v t="amd.20160106095324.1"><vh>@path ./../</vh>
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
@@ -169,7 +169,6 @@
 <v t="leo.20161214215900.1"><vh>@edit 20161114..md</vh></v>
 <v t="leo.20161216133217.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161214215924.1"><vh>@edit 20161209a.md</vh></v>
-<v t="leo.20161214215933.1"><vh>@edit 20161209b.md</vh></v>
 <v t="leo.20161216135359.1"><vh>@edit 20161217.md</vh></v>
 <v t="leo.20161230133320.1"><vh>@edit 20161223.md</vh></v>
 <v t="leo.20161230133341.1"><vh>@edit 20161230.md</vh></v>
