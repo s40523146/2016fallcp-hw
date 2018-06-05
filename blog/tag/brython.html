@@ -253,9 +253,6 @@ init_mathjax();
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="../pages/about/">
-                             About
-                          </a></li>
                         <li >
                             <a href="../category/course.html">Course</a>
                         </li>
@@ -283,8 +280,48 @@ init_mathjax();
 
             <article>
                 <h2><a href="../w17.html">W17</a></h2>
-                <div class="summary"><p>2017</p>
+                <div class="summary"><script type="text/javascript" src="https://brython.info/src/brython_dist.js"></script>
 
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
+
+<script type="text/javascript" src="https://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
+
+<h2>利用漸開線原理, 以 Brython 繪製單一正齒輪廓:11齒</h2>
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="onegear" width="800" height="600"></canvas>
+
+<div id="onegear_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+import math
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
+
+    def create_line(self, x1, y1 …</script>
                     <a class="btn btn-default btn-xs" href="../w17.html">more ...</a>
                 </div>
             </article>
@@ -326,7 +363,11 @@ def compa(e):
     # 如何判斷所輸入的整數比 10 大
 
     if int(your_input) > 10:
-        c <= "所輸入的整數:" + your_input ...</script></!--></!--></!-->
+        c <= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
+    else:
+        c <= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+
+#print("test …</script>
                     <a class="btn btn-default btn-xs" href="../cp-w15-lian-xi.html">more ...</a>
                 </div>
             </article>
@@ -359,7 +400,10 @@ from browser import alert
     print ("Hello World!")
     #01-02.py
     thetext = input("Enter some text ")
-    print ("This is what ...</script></!--></!--></!-->
+    print ("This is what you entered:")
+    print (thetext)
+    #01-03.py
+    # Note that \n within quote marks forces a new line …</script>
                     <a class="btn btn-default btn-xs" href="../cp-w14-lian-xi.html">more ...</a>
                 </div>
             </article>
